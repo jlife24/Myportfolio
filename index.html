@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>DevCeejay Portfolio Website</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css" integrity="sha256-46qynGAKLSFpVbEBog43gvNhfrOj+BmwXdxFgVK/Kvc=" crossorigin="anonymous" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Source+Code+Pro&family=Source+Sans+Pro:wght@300;900&display=swap" rel="stylesheet" />
+  <script src="https://kit.fontawesome.com/6daf7328b2.js" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body>
+  <header>
+    <div class="logo">
+      <img src="https://cdn.dribbble.com/users/5214489/screenshots/14906210/media/070c10d13aa6f9cc75274a9bb1531c53.jpg" alt="image logo" />
+    </div>
+    <button class="nav-toggle" aria-label="toggle navigation"><span class="hamburger"></span>
+    </button>
+    <nav class="nav nav-open">
+      <ul class="nav__list">
+        <li class="nav__item"><a href="#home" class="nav__link">Home</a></li>
+        <li class="nav__item"><a href="#services" class="nav__link">My Services</a></li>
+        <li class="nav__item"><a href="#about" class="nav__link">About me</a></li>
+        <li class="nav__item"><a href="#work" class="nav__link">My Work</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!--Introduction Section -->
+  <section class="intro" id="home">
+    <h1 class="section__title section__title--intro">
+      Hi, I am <strong>Stanley</strong>
+    </h1>
+    <p class="section__subtitle section__subtitle--intro">front-end dev</p>
+    <img class="first__pic" src="https://media-exp1.licdn.com/dms/image/C4D03AQHISUQjBD5D1w/profile-displayphoto-shrink_800_800/0/1605144873527?e=1651708800&v=beta&t=IflphHlEb26p8g90yAOZAG3xAYBamBWLCsveHGO1JAA"
+      alt="a pic of myself" />
+  </section>
+
+  <!-- My Services -->
+
+  <section class="my-services" id="services">
+    <h2 class="section__title section__title--services">What I do</h2>
+    <div class="services">
+      <div class="service">
+        <h3>Design + Development</h3>
+        <p>With the advent of new technology, it is entirely easy to miss out on valuable opportunities obtainable. This situation could be even worse for your business if it lacks the expertise to tap on these changes. Business profitability is
+          highly anchored on the number of sales made. Well, creating a website can effectively aid a business venture to attract more sales. Due to the COVID-19 pandemic the e-commerce market is expected to grow by almost $11 trillion between 2021
+          and 2025. This indicates that sales on websites are attracting more users.</p>
+      </div> <!-- closed service-->
+
+      <div class="service">
+        <h3>E-commerce</h3>
+        <p>Having your own ecommerce website helps you better understand your customers. You can analyze their behavior on your website, like what they looked at and the path they took to buy from you.
+          If there are certain traffic sources that are bringing in great customers for your business, you can choose to focus efforts there and put more money into those channels since you know they are profitable.</p>
+      </div> <!-- closed service-->
+
+      <div class="service">
+        <h3>WordPress</h3>
+        <p>WordPress is the most popular Content Management System (CMS) around. It powers 38% of all internet websites among big and small businesses. With it, you can create, manage, and scale any kind of website, personal blog, online store, and
+          others for your small business.</p>
+      </div> <!-- closed service-->
+
+    </div> <!-- closed services -->
+
+    <a href="#work" class="btn">My Work</a>
+  </section>
+
+  <!--About Me -->
+  <section class="about-me" id="about">
+    <h2 class="section__title section__title--about">Who I am</h2>
+    <p class="section__subtitle section__subtitle--about">Designer & developer based out of NJ</p>
+    <div class="about-me__body">
+      <p>Hi, thanks for checking out my page. I spend most of my days with different areas of web development from back end programming(PHP) to front end engineering(HTML, CSS, and JavaScript). I'm extremely passionate about web development and
+        design in all its forms and helping small businesses improve their online presence. </p>
+      <p>I'm curious, and I enjoy the thrill and challenge for turning lines of code into real life applications. I do my best to stay on top of changes in the state of the art so that i can be of service with skills well suited to the job at hand.
+      </p>
+    </div>
+    <img class="about-me__img"
+      src="https://scontent-lga3-1.xx.fbcdn.net/v/t1.18169-9/12342646_10208511938702899_5313203294931546044_n.jpg?_nc_cat=102&ccb=1-5&_nc_sid=09cbfe&_nc_ohc=OMHylx08BsIAX8L1p5r&_nc_ht=scontent-lga3-1.xx&oh=00_AT_PRbeUSeHJjpbw8jf1BouICQ9Y8aOhycx5-RYwnefIDg&oe=6245B32A"
+      width="244" height="406" alt="photo of stanley">
+  </section>
+
+  <!-- My Work -->
+
+  <section class="my-work" id="work">
+    <h2 class="section__titles section__title--work">My Work</h2>
+    <p class="section__subtitle section__subtitle--work">A selection of my range of work</p>
+
+    <div class="portfolio">
+      <a href="#" class="portfolio__item">
+        <img src="https://github.com/jlife24/drumKit/blob/main/images/tom1.png?raw=true" class="portfolio__img" alt="drum image">
+      </a>
+
+      <a href="#" class="portfolio__item">
+        <img
+          src="img/portfolio-01.jpg"
+          class="portfolio__img" alt="laptob image">
+      </a>
+
+      <a href="#" class="portfolio__item">
+        <img
+          src="img/portfolio-02.jpg"
+          class="portfolio__img" alt="laptob image">
+      </a>
+
+      <a href="#" class="portfolio__item">
+        <img
+          src="img/portfolio-04.jpg"
+          class="portfolio__img" alt="laptob image">
+      </a>
+
+      <a href="#" class="portfolio__item">
+        <img
+          src="img/services-bg.jpg"
+          class="portfolio__img" alt="laptob image">
+      </a>
+
+      <a href="#" class="portfolio__item">
+        <img
+          src="img/portfolio-05.jpg"
+          class="portfolio__img" alt="">
+      </a>
+
+      <a href="#" class="portfolio__item">
+        <img src="https://media.cheggcdn.com/study/098/0981f6e5-2251-4ba7-9e5f-0e29682322bc/image" class="portfolio__img" alt="">
+      </a>
+
+      <a href="#" class="portfolio__item">
+        <img src="https://www.cdc.gov/healthypets/images/pets/cute-dog-headshot.jpg?_=42445" class="portfolio__img" alt="image of a dog">
+      </a>
+
+      <a href="#" class="portfolio__item">
+        <img src="https://wpforms.com/wp-content/uploads/2018/07/Final-Survey-Form.png" class="portfolio__img" alt="survey image">
+      </a>
+
+      <a href="#" class="portfolio__item">
+        <img src="https://www.kobejones.com.au/wp-content/uploads/2017/12/Kobe-Jones-Art-of-Japanese-Food-Decoration.jpg" class="portfolio__img" alt="food image">
+      </a>
+
+      <a href="#" class="portfolio__item">
+        <img src="https://fjwp.s3.amazonaws.com/blog/wp-content/uploads/2016/06/14084739/The-Most-In-Demand-Coding-Languages-for-Remote-Tech-Jobs.jpg" class="portfolio__img" alt="">
+      </a>
+
+      <a href="#" class="portfolio__item">
+        <img src="https://assets.ey.com/content/dam/ey-sites/ey-com/en_gl/topics/tmt/ey-gamer-computer-headphones.jpg.rendition.450.300.jpg" class="portfolio__img" alt="">
+      </a>
+
+    </div>
+  </section>
+
+  <!-- Footer -->
+
+  <footer class="footer">
+    <a href="mailto:cjstanenemuo@yahoo.com" class="footer__link">cjstanenemuo@yahoo.com</a>
+    <ul class="social-list">
+      <li class="social-list__item">
+        <a class="social-list__link" href="https://www.linkedin.com/">
+          <i class="fa-brands fa-linkedin"></i>
+        </a>
+      </li>
+      <li class="social-list__item">
+        <a class="social-list__link" href="https://github.com/jlife24">
+          <i class="fa-brands fa-github"></i>
+        </a>
+      </li>
+      <li class="social-list__item">
+        <a class="social-list__link" href="https://www.instagram.com/j_life_24/">
+          <i class="fa-brands fa-instagram"></i>
+        </a>
+      </li>
+      <li class="social-list__item">
+        <a class="social-list__link" href="https://www.facebook.com/stanley.enemuo">
+          <i class="fa-brands fa-facebook"></i>
+      </li>
+    </ul>
+  </footer>
+
+</body>
+
+<script type="text/javascript" src="js/index.js" charset="utf-8"></script>
+
+
+</html>
